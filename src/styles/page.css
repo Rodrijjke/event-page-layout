@@ -1,0 +1,6 @@
+.page {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+}
+/*# sourceMappingURL=page.css.map */
