@@ -1,0 +1,27 @@
+.speakers-block {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: start;
+  padding: 48px;
+}
+.speakers-label {
+  font-size: 32px;
+  font-weight: bold;
+}
+@media (min-width: 1025px), (min-width: 481px) and (max-width: 1024px) {
+  .speakers-block {
+    padding: 48px;
+  }
+  .speakers-label {
+    text-align: center;
+  }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  .speakers-block {
+    padding: 15px 24px;
+  }
+  .speakers-label {
+    text-align: left;
+  }
+}
+/*# sourceMappingURL=speakers.css.map */
