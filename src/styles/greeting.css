@@ -1,0 +1,15 @@
+.greeting-block {
+  display: flex;
+  background-color: #f8f9fa;
+}
+@media (min-width: 1025px) {
+  .greeting-text {
+    text-align: center;
+  }
+}
+@media (min-width: 481px) and (max-width: 1024px), (min-width: 320px) and (max-width: 480px) {
+  .greeting-text {
+    text-align: left;
+  }
+}
+/*# sourceMappingURL=greeting.css.map */

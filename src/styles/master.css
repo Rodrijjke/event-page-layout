@@ -80,4 +80,93 @@
     height: 100px;
   }
 }
+.greeting-container {
+  display: flex;
+  background-color: #f8f9fa;
+}
+.greeting-block,
+.greeting-block-left,
+.greeting-block-right {
+  display: flex;
+  flex-flow: row nowrap;
+  flex-grow: 1;
+  width: 100%;
+}
+.greeting-block-left {
+  justify-content: flex-end;
+}
+.greeting-block-right {
+  justify-content: flex-start;
+}
+.greeting-text {
+  display: flex;
+  flex-flow: column nowrap;
+}
+.registration-info-table {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: start;
+}
+.registration-info-row {
+  display: flex;
+  flex-flow: row nowrap;
+}
+@media (min-width: 1025px) {
+  .greeting-container {
+    flex-flow: row nowrap;
+  }
+  .greeting-text {
+    text-align: center;
+    flex-basis: 65%;
+  }
+  .registration-info {
+    flex-basis: 65%;
+  }
+  .greeting-block,
+  .greeting-block-left,
+  .greeting-block-right {
+    padding: 0 15px;
+  }
+}
+@media (min-width: 1025px), (min-width: 481px) and (max-width: 1024px) {
+  .greeting-container {
+    padding: 38px;
+  }
+  .registration-info-key {
+    min-width: 165px;
+  }
+}
+@media (min-width: 481px) and (max-width: 1024px), (min-width: 320px) and (max-width: 480px) {
+  .greeting-text {
+    text-align: left;
+  }
+  .greeting-block-left,
+  .greeting-block-right {
+    justify-content: flex-start;
+  }
+  .registration-info {
+    width: 100%;
+  }
+  .greeting-block,
+  .greeting-block-left,
+  .greeting-block-right {
+    padding: 0;
+  }
+}
+@media (min-width: 481px) and (max-width: 1024px) {
+  .greeting-container {
+    flex-flow: column nowrap;
+  }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  .greeting-container {
+    padding: 15px;
+  }
+  .registration-info-key {
+    margin-right: 10px;
+  }
+  .greeting-block-left {
+    display: none;
+  }
+}
 /*# sourceMappingURL=master.css.map */
