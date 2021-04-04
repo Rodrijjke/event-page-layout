@@ -136,6 +136,9 @@
   .greeting-block-right {
     padding: 0 15px;
   }
+  .registration-info-label {
+    margin: 10px;
+  }
 }
 @media (min-width: 1025px), (min-width: 481px) and (max-width: 1024px) {
   .greeting-container {
@@ -169,6 +172,9 @@
   .greeting-container {
     flex-flow: column nowrap;
   }
+  .registration-info-label {
+    margin: 38px 0 0 0;
+  }
 }
 @media (min-width: 280px) and (max-width: 480px) {
   .greeting-container {
@@ -179,6 +185,7 @@
   }
   .registration-info-label {
     text-align: start;
+    margin: 0;
   }
   .greeting-block-left {
     display: none;
