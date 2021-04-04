@@ -32,7 +32,7 @@
     height: 1024px;
   }
 }
-@media (min-width: 320px) and (max-width: 480px) {
+@media (min-width: 280px) and (max-width: 480px) {
   .event-header {
     height: 568px;
   }
@@ -75,7 +75,7 @@
     height: 150px;
   }
 }
-@media (min-width: 481px) and (max-width: 1024px), (min-width: 320px) and (max-width: 480px) {
+@media (min-width: 481px) and (max-width: 1024px), (min-width: 280px) and (max-width: 480px) {
   .footer {
     height: 100px;
   }
@@ -148,7 +148,7 @@
     align-self: center;
   }
 }
-@media (min-width: 481px) and (max-width: 1024px), (min-width: 320px) and (max-width: 480px) {
+@media (min-width: 481px) and (max-width: 1024px), (min-width: 280px) and (max-width: 480px) {
   .greeting-text {
     text-align: left;
   }
@@ -170,7 +170,7 @@
     flex-flow: column nowrap;
   }
 }
-@media (min-width: 320px) and (max-width: 480px) {
+@media (min-width: 280px) and (max-width: 480px) {
   .greeting-container {
     padding: 24px 15px;
   }
@@ -251,7 +251,7 @@
     display: unset;
   }
 }
-@media (min-width: 481px) and (max-width: 1024px), (min-width: 320px) and (max-width: 480px) {
+@media (min-width: 481px) and (max-width: 1024px), (min-width: 280px) and (max-width: 480px) {
   .speaker-tile {
     margin: 12px 8px;
   }
@@ -259,7 +259,7 @@
     display: block;
   }
 }
-@media (min-width: 320px) and (max-width: 480px) {
+@media (min-width: 280px) and (max-width: 480px) {
   .speakers-block {
     padding: 8px 15px;
   }
